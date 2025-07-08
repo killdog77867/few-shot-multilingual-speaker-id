@@ -14,19 +14,21 @@ This project implements a few-shot speaker identification pipeline using ECAPA-T
 - Cosine similarity-based matching for speaker verification
 
 ## 🗂️ Project Structure
-'''
-few-shot-multilingual-speaker-id/
-├── model/ # Pretrained or intermediate models
-├── static/ # Static assets for web interface (CSS, JS)
-├── templates/ # HTML templates for Flask
-├── app.py # Flask web application
-├── ecapa_tdnn.py # ECAPA-TDNN model definition
-├── preprocess.py # Audio preprocessing (MFCC, embedding, etc.)
-├── README.md # Project documentation
-├── requirements.txt # (Optional)
-├── user_data.json # Stores enrolled user voice features
 
-'''
+```
+few-shot-multilingual-speaker-id/
+├── model/                # Pretrained or intermediate models
+├── static/               # Static assets for web interface (CSS, JS)
+├── templates/            # HTML templates for Flask
+├── app.py                # Flask web application
+├── ecapa_tdnn.py         # ECAPA-TDNN model definition
+├── preprocess.py         # Audio preprocessing (MFCC, embedding, etc.)
+├── README.md             # Project documentation
+├── requirements.txt      # (Optional) List of Python dependencies
+├── user_data.json        # Stores enrolled user voice features
+```
+
+
 ## 🧾 Input & Output
 
 - **Input**: Short audio samples of user speech (few seconds long).
