@@ -1,0 +1,9 @@
+Flask>=2.0
+torch>=1.8
+speechbrain>=0.5.13 # Or the version you are using
+numpy
+librosa>=0.8
+scipy
+soundfile>=0.10
+torchaudio # Often a dependency for speechbrain/torch audio operations
+pydub

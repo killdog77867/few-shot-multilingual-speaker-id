@@ -1,0 +1,6 @@
+{
+    "vishnu": {
+        "embedding_file": "vishnu.npy",
+        "language": "en"
+    }
+}
