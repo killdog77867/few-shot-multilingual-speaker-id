@@ -14,7 +14,7 @@ This project implements a few-shot speaker identification pipeline using ECAPA-T
 - Cosine similarity-based matching for speaker verification
 
 ## 🗂️ Project Structure
-
+'''
 few-shot-multilingual-speaker-id/
 ├── model/ # Pretrained or intermediate models
 ├── static/ # Static assets for web interface (CSS, JS)
@@ -26,10 +26,7 @@ few-shot-multilingual-speaker-id/
 ├── requirements.txt # (Optional)
 ├── user_data.json # Stores enrolled user voice features
 
-Copy
-Edit
-
-
+'''
 ## 🧾 Input & Output
 
 - **Input**: Short audio samples of user speech (few seconds long).
