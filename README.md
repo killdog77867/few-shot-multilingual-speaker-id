@@ -23,8 +23,11 @@ few-shot-multilingual-speaker-id/
 ├── ecapa_tdnn.py # ECAPA-TDNN model definition
 ├── preprocess.py # Audio preprocessing (MFCC, embedding, etc.)
 ├── README.md # Project documentation
-├── requirements.txt # (Optional) List of Python dependencies
+├── requirements.txt # (Optional)
 ├── user_data.json # Stores enrolled user voice features
+
+Copy
+Edit
 
 
 ## 🧾 Input & Output
